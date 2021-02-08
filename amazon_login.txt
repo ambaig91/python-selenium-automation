@@ -1,0 +1,34 @@
+LOCATORS & XPATH
+
+Amazon Logo
+Locator: class = a-icon a-icon-logo
+XPATH = //i[@class='a-icon a-icon-logo']
+
+Continue Button
+Locator: Id = continue
+XPATH =$x("//input[@id='continue']")
+
+Need Help Link
+Locator: class = a-expander-prompt
+XPATH = //span[@class='a-expander-prompt']
+
+Forgot Your Password link
+Locator: Id= auth-fpp-link-bottom
+XPATH =$x("//a[@id='auth-fpp-link-bottom']")
+
+Other issue with sign in link
+Locator: Id = ap-other-signin-issues-link
+XPATH = $x("//a[@id='ap-other-signin-issues-link']")
+
+Create your Amazon Account button
+Locator: Class = a-button-text
+XPATH = $x("//a[@class='a-button-text']")
+
+Conditions of use link
+Locator: href = (contains) ap_signin_notification_condition_of_use
+XPATH = $x("//a[contains(@href,'ap_signin_notification_condition_of_use')]")
+
+Privacy Notice link
+Locator: href = (contains) ap_signin_notification_privacy_notice
+XPATH = $x("//a[contains(@href,'ap_signin_notification_privacy_notice')]")
+
